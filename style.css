@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dela Gothic One";
+    src: url("/resources/fonts/DelaGothicOne-Regular.ttf");
+}
+
+html {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+body {
+    text-align: center;
+    background-color: #7474BF;
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
+    background: linear-gradient(to right, #348AC7, #7474BF);
+}
+
+h1 {
+    color: #eeeeee;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Dela Gothic One", sans-serif;
+    margin-top: 1%;
+}
+
+#game-container {
+    background-color: #000000;
+    margin: auto;
+    height: 55vh;
+    width: 80%;
+	background-image: url("https://www.shutterstock.com/image-vector/escape-room-dark-purple-word-260nw-2457202231.jpg");
+    background-size: cover;
+    background-position: center center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    border-radius: 30px;
+}
+
+#text-container {
+    width: 85%;
+    padding: 0 8px;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgba(256, 256, 256, 0.7);
+}
+
+p {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+}
+
+button {
+    background-color: #FFC009;
+    height: auto;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #EEEEEE;
+    border: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 10px 26px;
+    margin: 5px 10px;
+    transition-duration: 0.3s;
+    font-family: "Dela Gothic One", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#button-container {
+    margin: 3% auto;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #f5d064;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+ 
